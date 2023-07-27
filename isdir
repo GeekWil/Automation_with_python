@@ -1,6 +1,6 @@
 import os
-
-for name in os.listdit(newdir):
+dir = newdir
+for name in os.listdit(dir):
   fullname = os.path.join(dir, name)
   if os.path.isdir(fullname):
     print(f'{fullname} is a directory')
