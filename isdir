@@ -13,10 +13,44 @@ for name in os.listdit(dir):
 # the following is to add words to a file
 
 def create_python_script(filename):
-    comments = "# Start of a new Python program"
-    with open(filename, "a") as file:
-        file.write(comments)
-        filesize = os.path.getsize(filename)
-    return filesize
+  comments = "# Start of a new Python program"
+  with open(filename,'a') as file:
+    filesize = file.write(comments)
+  return(filesize)
 
 print(create_python_script("program.py"))
+
+
+
+
+
+import os
+def new_directory(directory, filename):
+  # Before creating a new directory, check to see if it already exists
+  if os.path.isdir(directory)==False:
+    os.mkdir(directory)
+  # Create the new file inside of the new directory
+  path=os.path.join(directory,filename)
+  # Return the list of files in the new directory
+  os.mkdir(path)
+  return os.listdir(directory)
+  
+print(new_directory("PythonPrograms", "script.py"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
