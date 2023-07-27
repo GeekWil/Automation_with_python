@@ -1,0 +1,101 @@
+
+<b>Practice Quiz: Managing Files & Directories<b> 
+<br/>
+
+
+
+Question 1
+
+import os
+def create_python_script(filename):
+    comments = "# Start of a new Python program"
+    with open(filename,'a') as file:
+        filesize = file.write(comments)
+    return(filesize)
+
+print(create_python_script("program.py"))
+
+
+
+
+
+Question 2
+
+import os
+
+def new_directory(directory, filename):
+  # Before creating a new directory, check to see if it already exists
+  if not os.path.exists(directory):
+    os.mkdir(directory)
+    name=os.path.join(directory, filename)
+    file=open(name,'w')
+    file.close()
+  return os.listdir(directory)
+
+  # Create the new file inside of the new directory
+
+  # Return the list of files in the new directory
+
+print(new_directory("PythonPrograms", "script.py"))
+
+
+
+Question 3
+mkdir()
+
+
+
+
+
+Question 4
+
+import os
+import datetime
+from datetime import date
+def file_date(filename):
+  # Create the file in the current directory
+  os.mkdir(filename)
+  timestamp = os.path.getmtime(filename)
+  # Convert the timestamp into a readable format, then into a string
+  timestamp=date.fromtimestamp(timestamp)
+  # Return just the date portion 
+  # Hint: how many characters are in “yyyy-mm-dd”? 
+  return ("{}".format(timestamp))
+
+print(file_date("newfile.txt")) 
+# Should be today's date in the format of yyyy-mm-dd
+
+
+
+
+Question 5
+
+import os
+def parent_directory():
+  # Create a relative path to the parent 
+  # of the current working directory 
+  path = os.getcwd()
+  relative_parent = os.path.abspath(os.path.join(path, os.pardir))
+  # Return the absolute path of the parent directory
+  return relative_parent
+
+print(parent_directory())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
