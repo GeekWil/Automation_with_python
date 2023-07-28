@@ -1,5 +1,6 @@
-###Question 1###
+**###Question 1###**
 
+```
 import re
 def transform_record(record):
   new_record = re.sub(r',([\d\-]+),',r',+1-\1,',record)
@@ -16,11 +17,12 @@ print(transform_record("Melody Daniels,846-687-7436,Programmer"))
 
 print(transform_record("Charlie Rivera,698-746-3357,Web Developer")) 
 # Charlie Rivera,+1-698-746-3357,Web Developer
+```
 
 
-#############################################################
-Question 2
+**###Question 2###**
 
+```
 import re
 def multi_vowel_words(text):
   pattern = r'(\w*.[a,e,i,o,u]{3,}\w*)'
@@ -41,20 +43,18 @@ print(multi_vowel_words("The order of a data queue is First In First Out (FIFO)"
 
 print(multi_vowel_words("Hello world!")) 
 # []
+```
 
+**###Question 3###**
 
-#############################################################
-Question 3
-
-
+```
 A tuple
+```
 
 
+**###Question 4###**
 
-#############################################################
-Question 4
-
-
+```
 import re
 def transform_comments(line_of_code):
   result = re.sub(r'#+', r'//',line_of_code)
@@ -69,12 +69,12 @@ print(transform_comments("  number += 1   # Increment the variable"))
 print(transform_comments("  return(number)")) 
 # Should be "  return(number)"
 
+```
 
 
+**###Question 5###**
 
-#############################################################
-Question 5
-
+```
 import re
 def convert_phone_number(phone):
   result = re.sub(r'(?<!\S)(\d{3})-', r'(\1) ', phone)
@@ -84,7 +84,7 @@ print(convert_phone_number("My number is 212-345-9999.")) # My number is (212) 3
 print(convert_phone_number("Please call 888-555-1234")) # Please call (888) 555-1234
 print(convert_phone_number("123-123-12345")) # 123-123-12345
 print(convert_phone_number("Phone number of Buckingham Palace is +44 303 123 7300")) # Phone number of Buckingham Palace is +44 303 123 7300
-
+```
 
 
 The replacement string is r'(\1) ': Here, \1 is used to refer to the first capture group in the pattern.
