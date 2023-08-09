@@ -3,31 +3,30 @@
 ###**Question 1**###
 
 ```
-A list of instructions that the computer has to follow to reach a goal
+Long-term remediation
 ```
 
 ###**Question 2**###
 
 ```
-The rules of how to express things in that language
+Itrace
 ```
 
 ###**Question 3**###
 
 ```
-There’s not much difference, but scripts are usually simpler and shorter.
+Gathering information
 ```
 
 ###**Question 4**###
 
 ```
-*Generating a sales report, split by region and product type
-*Copying a file to all computers in a company
-*Sending personalized emails to subscribers of your website
+*tcpdump
+*wireshark
 ```
 
 ###**Question 5**###
 
 ```
-The rules for how a programming instruction is written
+System calls
 ```
