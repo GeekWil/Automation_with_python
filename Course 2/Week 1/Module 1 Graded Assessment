@@ -1,0 +1,71 @@
+**Module 1 Graded Assessment**
+
+###**Question 1**###
+
+```
+A step-by-step recipe of what needs to be done to complete a task, that gets executed by the computer.
+```
+
+###**Question 2**###
+
+```
+The process of replacing a manual step with one that happens automatically.
+```
+
+###**Question 3**###
+
+```
+*Creating a report of how much each sales person has sold in the last month.
+*Setting the home directory and access permissions for new employees joining your company.
+*Populating your company's e-commerce site with the latest products in the catalog.
+```
+
+###**Question 4**###
+
+```
+*Python programs are easy to write and understand.
+*The Python interpreter reads our code and transforms it into computer instructions.
+*We can practice Python using web interpreters or codepads as well as executing it locally. 
+```
+
+###**Question 5**###
+
+```
+Each programming language has its advantages and disadvantages.
+```
+
+###**Question 6**###
+
+```
+print ("Automating with Python is fun!")
+```
+
+###**Question 7**###
+
+```
+color = "yellow"
+thing = "sunshine"
+print(color + " is the color of " + thing)
+```
+
+###**Question 8**###
+
+```
+print (86400*7)
+```
+
+###**Question 9**###
+
+```
+print(26**6)
+```
+
+###**Question 10**###
+
+```
+disk_size = 16*1024*1024*1024
+sector_size = 512
+sector_amount = (disk_size/sector_size)
+
+print(sector_amount)
+```
