@@ -2,7 +2,9 @@
 
 ###**Question 1**###
 
-```print ("My first Python program")```
+```
+print ("My first Python program")
+```
 
 ###**Question 2**###
 
@@ -10,7 +12,9 @@ General purpose scripting language
 
 ###**Question 3**###
 
-```print ("Have a nice day")```
+```
+print ("Have a nice day")
+```
 
 ###**Question 4**###
 
