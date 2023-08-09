@@ -7,9 +7,11 @@ print ("My first Python program")
 ```
 
 ###**Question 2**###
+
 ```
 General purpose scripting language 
 ```
+
 ###**Question 3**###
 
 ```
