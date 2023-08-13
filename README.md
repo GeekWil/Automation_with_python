@@ -9,4 +9,4 @@ This is contains my work as I go through this certification.
 
 
 
-- [Week 1 - Practice Quiz 1 - Introduction to Programming](Course%201/W1%20-%20Hello%20Python/Practice%20Quiz.md)
+- [Week 1 - Practice Quiz 1 - Introduction to Programming](Course%202/Week%201/Practice%20Quiz%203%20Hello%20World.md)
