@@ -8,5 +8,5 @@ The 6 courses certificate, developed by Google, is designed to provide IT profes
 This is contains my work as I go through this certification.
 
 
-
-- [Week 1 - Practice Quiz 1 - Introduction to Programming](Course%202/Week%201/Practice%20Quiz%203%20Hello%20World.md)
+<!-- [Week 3 - Practice Quiz 1 - Introduction to Programming](Course%202/Week%201/Practice%20Quiz%203%20Hello%20World.md)
+-->
